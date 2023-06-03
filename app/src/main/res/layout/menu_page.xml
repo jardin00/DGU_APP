@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menu_page"
+    >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="82dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/notosan_bold"
+        android:gravity="top"
+        android:includeFontPadding="false"
+        android:text="@string/menu"
+        android:textAppearance="@style/menu" />
+
+
+</RelativeLayout>

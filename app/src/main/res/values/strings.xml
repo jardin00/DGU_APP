@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">dguapp_improve</string>
+    <!--로그인 유지-->
+    <string name="로그인_유지">로그인 유지</string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">Log out</string>
+    <string name="hometext">메인</string>
+    <string name="studentcard">학생증</string>
+    <string name="settingtext">설정</string>
+    <string name="menu">Menu</string>
+    <string name="student">홍길동 \n2020xxxxxx \n산업시스템공학과</string>
+    <string name="settingtext2">설정</string>
+    <string name="myclass">내 강의실</string>
+    <string name="db">데이터베이스</string>
+    <string name="ai">인공지능입문</string>
+    <string name="algo">자료구조및알고리즘1</string>
+    <string name="com">컴퓨터시스템</string>
+    <string name="classroom">강의실 가기</string>
+    <string name="notice">공지사항</string>
+    <string name="noticetext">• eclass 인증서 로그인 메뉴얼\n• eclass 재시험 메뉴얼\n• eclass 과제/시험 제출 메뉴얼</string>
+</resources>

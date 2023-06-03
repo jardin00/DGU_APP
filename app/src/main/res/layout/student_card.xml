@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/studentcard">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="116dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/logout_o"
+        android:background="@drawable/custom_button"
+        android:layout_width="76dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="29dp"
+        android:backgroundTint="@null"
+        android:text="@string/log_out"
+        android:textAppearance="@style/log_out"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/notosan_bold"
+        android:onClick="click_logout"
+        />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/menu_all" />
+
+    <View
+        android:id="@+id/person"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="214dp"
+        android:background="@drawable/person" />
+
+    <View
+        android:id="@+id/qr"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/qr" />
+
+    <TextView
+        android:id="@+id/student"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="269dp"
+        android:fontFamily="@font/notosan_medium"
+        android:gravity="top"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="-2sp"
+        android:text="@string/student"
+        android:textAppearance="@style/student" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="645dp"
+        android:onClick="onClick"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="645dp"
+        android:onClick="onClick"
+        android:src="@drawable/setting" />
+
+    <ImageView
+        android:id="@+id/user_square"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="645dp"
+        android:src="@drawable/user_square" />
+
+    <TextView
+        android:id="@+id/hometext"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/home"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/notosan_bold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/hometext"
+        android:textAppearance="@style/hometext" />
+
+    <TextView
+        android:id="@+id/studentcard"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/user_square"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/notosan_bold"
+        android:gravity="center_horizontal|top"
+        android:includeFontPadding="false"
+        android:text="@string/studentcard"
+        android:textAppearance="@style/studentcard" />
+
+    <TextView
+        android:id="@+id/settingtext"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/setting"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/notosan_bold"
+        android:gravity="center_horizontal|top"
+        android:includeFontPadding="false"
+        android:text="@string/settingtext"
+        android:textAppearance="@style/settingtext" />
+</RelativeLayout>
